@@ -1,0 +1,2 @@
+class Pioneer < ApplicationRecord
+end

@@ -1,0 +1,12 @@
+<% content_for :title, "Editing pioneer" %>
+
+<h1>Editing pioneer</h1>
+
+<%= render "form", pioneer: @pioneer %>
+
+<br>
+
+<div>
+  <%= link_to "Show this pioneer", @pioneer %> |
+  <%= link_to "Back to pioneers", pioneers_path %>
+</div>
